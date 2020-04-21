@@ -15,6 +15,7 @@
 		556C6F14244EDBC2004985E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556C6F12244EDBC2004985E4 /* LaunchScreen.storyboard */; };
 		556C6F1C244EDFFB004985E4 /* SpellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556C6F1B244EDFFB004985E4 /* SpellData.swift */; };
 		556C6F1E244EE06B004985E4 /* Spells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556C6F1D244EE06B004985E4 /* Spells.swift */; };
+		556C6F20244EEB44004985E4 /* SpellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556C6F1F244EEB44004985E4 /* SpellDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		556C6F15244EDBC2004985E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		556C6F1B244EDFFB004985E4 /* SpellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellData.swift; sourceTree = "<group>"; };
 		556C6F1D244EE06B004985E4 /* Spells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spells.swift; sourceTree = "<group>"; };
+		556C6F1F244EEB44004985E4 /* SpellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				556C6F1B244EDFFB004985E4 /* SpellData.swift */,
 				556C6F1D244EE06B004985E4 /* Spells.swift */,
 				556C6F0B244EDBBD004985E4 /* ViewController.swift */,
+				556C6F1F244EEB44004985E4 /* SpellDetailViewController.swift */,
 				556C6F0D244EDBBD004985E4 /* Main.storyboard */,
 				556C6F10244EDBC2004985E4 /* Assets.xcassets */,
 				556C6F12244EDBC2004985E4 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				556C6F1C244EDFFB004985E4 /* SpellData.swift in Sources */,
 				556C6F0C244EDBBD004985E4 /* ViewController.swift in Sources */,
 				556C6F08244EDBBD004985E4 /* AppDelegate.swift in Sources */,
+				556C6F20244EEB44004985E4 /* SpellDetailViewController.swift in Sources */,
 				556C6F0A244EDBBD004985E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
