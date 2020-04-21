@@ -13,6 +13,7 @@
 		556C6F0F244EDBBD004985E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556C6F0D244EDBBD004985E4 /* Main.storyboard */; };
 		556C6F11244EDBC2004985E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556C6F10244EDBC2004985E4 /* Assets.xcassets */; };
 		556C6F14244EDBC2004985E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556C6F12244EDBC2004985E4 /* LaunchScreen.storyboard */; };
+		556C6F1C244EDFFB004985E4 /* SpellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556C6F1B244EDFFB004985E4 /* SpellData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		556C6F10244EDBC2004985E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556C6F13244EDBC2004985E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556C6F15244EDBC2004985E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556C6F1B244EDFFB004985E4 /* SpellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				556C6F07244EDBBD004985E4 /* AppDelegate.swift */,
 				556C6F09244EDBBD004985E4 /* SceneDelegate.swift */,
+				556C6F1B244EDFFB004985E4 /* SpellData.swift */,
 				556C6F0B244EDBBD004985E4 /* ViewController.swift */,
 				556C6F0D244EDBBD004985E4 /* Main.storyboard */,
 				556C6F10244EDBC2004985E4 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556C6F1C244EDFFB004985E4 /* SpellData.swift in Sources */,
 				556C6F0C244EDBBD004985E4 /* ViewController.swift in Sources */,
 				556C6F08244EDBBD004985E4 /* AppDelegate.swift in Sources */,
 				556C6F0A244EDBBD004985E4 /* SceneDelegate.swift in Sources */,
