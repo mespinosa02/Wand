@@ -11,23 +11,29 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    var spells = ["Accio Dittany", "Accio Firebolt", "Accio Locket"]
+//    var spells = ["Accio Dittany", "Accio Firebolt", "Accio Locket"]
+    var spells = Spells()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+        
+        spells.getData {
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
     }
-
-
 }
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        spells.count
+        spells.spellArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = spells[indexPath.row]
+        cell.textLabel?.text = spells.spellArray[indexPath.row].name
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

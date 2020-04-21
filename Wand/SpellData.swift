@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct SpellData {
-    var name:String
-    
+struct SpellData: Codable {
+    var name: String
+    var description: String
+    var soundFile: String
 }
